@@ -40,6 +40,32 @@ T = {id, +, -, *, /, (, ), @, ; if, while, do, int, flow, bool, {, }, ,, <, <=, 
 
 S = S
 
+first(S) = {id, if, while, do, int, float, bool, ε}	follow(S) = {@, }, ;}
+
+first(A) = {id}						follow(A) = {@, }, ;}
+
+first(E) = {(, id}					follow(E) = {;, ), <, <=, ==, >=, >, {, @, }}
+
+first(E’) = {+, -, ε}				        follow(E’) = {;, ), <, <=, ==, >=, >, {, @, }}
+
+first(T) = {(, id}				        follow(T) = {+, -, ;, ), <, <=, ==, >=, >, {, @, }}
+
+first(T’) = {*, /, ε}			                follow(T’) = {+, -, ;, ), <, <=, ==, >=, >, {, @, }}
+
+first(F) = {(, id}				        follow(F) = {*, /, +, -, ;, ), <, <=, ==, >=, >, {, @, }}
+
+first(C) = {(}				                follow(C) = {{, @, }, ;}
+
+first(R) = {<, <=, ==, >=, >}		                follow(R) = {{, id}
+
+first(D) = {int, float, bool, ε}		        follow(D) = {@, }, ;}
+
+first(TY) = {int, float, bool}		                follow(TY) = {id}
+
+first(M) = {,, ε}				        follow(M) = {@, }, ;}
+
+![Table](
+
 # Restrictions:
         This program can't identify single letter identifers
         There must be space between each lexeme
