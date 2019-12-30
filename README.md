@@ -31,6 +31,14 @@ N = ![FSM](https://user-images.githubusercontent.com/48542636/71569416-cc023300-
 
 ![FSMDiagram](https://user-images.githubusercontent.com/48542636/71569524-8db94380-2a84-11ea-95da-57b69078ae5c.png)
 
+# table driven predictive parser
+G = { N, T , S , R}
+
+N = {S, A, E, E’, T, T’, F, C, R, D, TY, M}
+
+T = {id, +, -, *, /, (, ), @, ; if, while, do, int, flow, bool, {, }, ,, <, <=, ==, >=, >}
+
+S = S
 
 # Restrictions:
         This program can't identify single letter identifers
