@@ -4,11 +4,17 @@ Build this program using the concepts I learned in CPSC 323 Compilers and Langua
 
 # Finite State Machine
 State 1: Initial state
+
 State 2: Identifier 
+
 State 3: Space
+
 State 4: Numbers
+
 State 5: Float numbers
+
 State 6: Start of comment
+
 State 7: End of comment
 
 M = {Σ, q, q₀, F, N}
