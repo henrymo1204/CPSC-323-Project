@@ -1,0 +1,5 @@
+int min, max;
+min = min + max;
+if(min < max){min = max;}else{max = min + min;}
+while(min < max){min = max;}
+do{min = min + max;}while(min < max)
