@@ -66,6 +66,8 @@ first(M) = {,, ε}				        follow(M) = {@, }, ;}
 
 ![Table](https://user-images.githubusercontent.com/48542636/71569672-96f6e000-2a85-11ea-82f3-0b99ae76bdc7.png)
 
+# Semantic Analyzer
+![Machine Code](https://user-images.githubusercontent.com/48542636/71569749-2603f800-2a86-11ea-9ea4-aad099b97b47.png)
 
 # Restrictions:
         This program can't identify single letter identifers
