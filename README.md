@@ -1,6 +1,6 @@
 # CPSC 323 Project
 
-Build this program using the concepts I learned in CPSC 323 Compilers and Languages. First, I used Finite State Machine for Lexical Analyzer. Then, I used a table driven predictive parser for Syntax Analyzer. Lastly, I used the machine codes provided by the professor for Semantic Analyzer
+Build this program using the concepts I learned in CPSC 323 Compilers and Languages. First, I used a Finite State Machine for Lexical Analyzer. Then, I used a table-driven predictive parser for Syntax Analyzer. Lastly, I used the machine codes provided by the professor for Semantic Analyzer
 
 # Lexical Analyzer
 State 1: Initial state
