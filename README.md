@@ -2,7 +2,7 @@
 
 Build this program using the concepts I learned in CPSC 323 Compilers and Languages. First, I used Finite State Machine for Lexical Analyzer. Then, I used a table driven predictive parser for Syntax Analyzer. Lastly, I used the machine codes provided by the professor for Semantic Analyzer
 
-# Finite State Machine
+# Lexical Analyzer
 State 1: Initial state
 
 State 2: Identifier 
@@ -31,7 +31,7 @@ N = ![FSM](https://user-images.githubusercontent.com/48542636/71569416-cc023300-
 
 ![FSMDiagram](https://user-images.githubusercontent.com/48542636/71569524-8db94380-2a84-11ea-95da-57b69078ae5c.png)
 
-# table driven predictive parser
+# Syntax Analyzer
 G = { N, T , S , R}
 
 N = {S, A, E, E’, T, T’, F, C, R, D, TY, M}
@@ -64,7 +64,8 @@ first(TY) = {int, float, bool}		                follow(TY) = {id}
 
 first(M) = {,, ε}				        follow(M) = {@, }, ;}
 
-![Table](
+![Table](https://user-images.githubusercontent.com/48542636/71569672-96f6e000-2a85-11ea-82f3-0b99ae76bdc7.png)
+
 
 # Restrictions:
         This program can't identify single letter identifers
