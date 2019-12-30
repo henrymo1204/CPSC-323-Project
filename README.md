@@ -29,7 +29,7 @@ F = 1, 2, 3, 4, 5, 7
 
 N = ![FSM](https://user-images.githubusercontent.com/48542636/71569416-cc023300-2a83-11ea-90cf-393b6d784489.png) 
 
-
+![FSMDiagram](https://user-images.githubusercontent.com/48542636/71569524-8db94380-2a84-11ea-95da-57b69078ae5c.png)
 
 
 # Restrictions:
