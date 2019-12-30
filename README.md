@@ -18,11 +18,17 @@ State 6: Start of comment
 State 7: End of comment
 
 M = {Σ, q, q₀, F, N}
+
 Σ = { i, d, $, . , o, ! }
+
 q = {1, 2, 3, 4, 5, 6, 7}
+
 q₀ = 1
+
 F = 1, 2, 3, 4, 5, 7
+
 N = ![FSM](https://user-images.githubusercontent.com/48542636/71569416-cc023300-2a83-11ea-90cf-393b6d784489.png) 
+
 
 
 
